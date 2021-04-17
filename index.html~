@@ -15,7 +15,7 @@
 
 			<div class = "main-section">
 
-				<a href = "pic.jpg" download = "p"></a>
+				<a href = "pic.jpg" download = "p">Download</a>
 
 			</div>
 		</div>
