@@ -8,9 +8,14 @@ const start_program = () => {
 	
 	//importing verification name
 	
-	const password = document.getElementById("password").value;
+	const btn = document.getElementById("click")
+	
+	btn.addEventListener("click", () => {
 
-	console.log(password);
+		const password = document.getElementById("password").value;
+
+		console.log(password);
+	});
 }
 
 start_program();
