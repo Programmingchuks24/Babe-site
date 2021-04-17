@@ -1,4 +1,6 @@
-const start_program = () => {
+const start_program = (e) => {
+
+	e.preventDefault();
 
 	var pass = "patience";
 
@@ -12,7 +14,7 @@ const start_program = () => {
 	
 	const btn = document.getElementById("click")
 	
-	btn.addEventListener("click", (event) => {
+	btn.addEventListener("click", () => {
 
 		const password = document.getElementById("password").value;
 
@@ -38,10 +40,6 @@ const start_program = () => {
 
 
 
-		if (event.key === 13) {
-
-			console.log('clicked enter');
-		}
 	
 	});
 
