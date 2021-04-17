@@ -5,13 +5,12 @@ const start_program = () => {
 		//function to be created at later date...
 	}
 
-	//code goes here
 	
-	//testing code
+	//importing verification name
 	
-	console.log("Javascript working...");
+	const password = document.getElementById("password").value;
 
-	console.log("Wa
+	console.log(password);
 }
 
 start_program();
